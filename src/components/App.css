@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calendar-cell .available {
+  border: solid 1px #83c3ff;
+  background-color: #cfe8ff;
+  color: #112f4e;
+  z-index: 1;
+}
+.calendar-cell .available.selected {
+  border: solid 1px #2c476c;
+  background-color: #4a77b4;
+  color: #fff;
+}
+
+.calendar-cell .reserved {
+  border: solid 1px #d1d6d6;
+  background-color: #f1f3f6;
+  color: #71767a;
+  cursor: not-allowed;
+}
+
+.calendar-cell .out-of-range {
+  border: solid 1px #d1d6d6;
+  background-color: #f1f3f6;
+  color: #71767a;
+  cursor: not-allowed;
+}
+
+.calendar-cell .ff {
+  border: solid 1px #89ddd7;
+  background-color: #c4eeeb;
+  color: #203131;
+}
+
+.calendar-cell .ff.selected {
+  border: solid 1px #2c476c;
+  background-color: #4a77b4;
+  color: #fff;
+}
